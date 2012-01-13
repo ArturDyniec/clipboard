@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>clipboard</title>
+  <meta name="description" content="" />
+  <meta name="author" content="KUL Zend Programmers" />
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  
+  <!--SyntaxHighlighter-->
+  <script type="text/javascript" src="scripts/shCore.js"></script>
+  <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+  <script type="text/javascript" src="scripts/shBrushPhp.js"></script>
+  <script type="text/javascript" src="scripts/shBrushCpp.js"></script>
+  <link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+  <script type="text/javascript">SyntaxHighlighter.all();</script>  
+  <!--SyntaxHighlighter-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+  <div class="pojemnik">
+    <header>
+      <h1>clipboard</h1>
+      <h2>everyone wants to paste</h2>
+    </header>
+    <nav>
+    	<ul>
+    		<li><a href="#">Home</a></li>
+    		<li><a href="#">Regulamin</a></li>
+    		<li><a href="#">Kontakt</a></li>
+    	</ul>
+    </nav>
+
+    <div class="content">
+    	<h3>Tekst:</h3>
+    	<textarea id="source" rows="10" cols="3" name="source"></textarea>
+    	<input id="send" type="submit" value="Wyślij" name="submit">
+    	<br class="clearing" />
+    	<h3 class="nazwa">Nazwa:</h3>
+    	<input id="name" type="text" value="" name="name">
+    	<h3 class="nazwa">Autor:</h3>
+    	<input id="autor" type="text" value="" name="autor">    	
+    	<br class="clearing" />
+    	<h3 class="last-h3">Ostatnio dodane:</h3>  
+    	<table class="last-paste">
+    		<tr>
+    			<th style="width: 30%">nazwa</th>
+    			<th style="width: 30%">autor</th>
+    			<th style="width: 40%">kiedy</th>
+    		</tr>
+    		<tr>
+    			<td><a href="">f89t</a></td>
+    			<td>john</td>
+    			<td>2 godz. temu</td>
+    		</tr>
+    	</table>
+    	<br class="clearing" />
+		<pre class="brush: php;">
+		function helloSyntaxHighlighter()
+		{
+			return "hi!";
+		}
+		</pre>    	
+    </div>
+	<br class="clearing" />
+    <footer>
+     <p>&copy; Copyright by KUL ZendFramework Programmers</p>
+    </footer>
+  </div>
+</body>
+</html>
