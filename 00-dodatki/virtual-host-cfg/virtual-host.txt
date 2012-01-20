@@ -1,0 +1,12 @@
+<VirtualHost 127.0.0.1:80>
+   ServerName  clipboard.localhost
+   DirectoryIndex index.php
+   DocumentRoot "C:/xampp/htdocs/clipboard/web"
+    <Directory "/">
+        Options FollowSymLinks
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
+
