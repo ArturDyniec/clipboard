@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    /*border-collapse: collapse;*/
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: none repeat scroll 0 0 #D0D0D0;
+    color: #282828;
+    font-family: 'Special Elite',cursive;
+}
+.pojemnik {
+    margin: 0 auto;
+    width: 900px;
+}
+.clearing {
+    clear: both;
+}
+header h1 {
+    float: left;
+    font-size: 60px;
+    margin-top: 25px;
+    text-shadow: 3px 3px 8px #282828;
+}
+header h2 {
+    clear: left;
+    float: left;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    margin-left: 3px;
+    text-shadow: 2px 1px 3px
+    
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+    float: left;
+}
+nav a {
+    color: #494731;
+    font-size: 18px;
+    padding: 7px 10px;    
+}
+nav a:hover {
+    background: #494731;
+    border-radius: 5px 5px 5px 5px;
+    color: #D0D0D0;
+    font-size: 18px;
+    padding: 7px 10px;
+}
+
+.content{
+	float: left;
+	width: 100%;
+}
+
+.nazwa{
+	margin-right: 5px;
+	line-height: 1.9;
+}
+
+#name, #autor{
+	margin-right: 20px;
+}
+
+.nazwa, #name, #autor{
+	float: left;
+}
+
+#source, #name, #autor {
+    border: 1px solid #282828;
+    color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+	box-shadow: 0 0 7px 0 #282828 inset;
+}
+
+#source{
+	float: left;	
+	height: 150px;
+    width: 890px;
+}
+
+#send{
+	background: #151515;
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 10px;
+    padding: 5px 19px;
+    cursor: pointer;
+}
+
+.last-h3{
+	margin-top: 20px;
+}
+
+.last-paste{
+	width: 400px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #282828;
+	box-shadow: 0 0 7px 0 #282828 inset;
+}
+
+.last-paste td{
+	padding: 5px 4px
+}
+
+.last-paste th{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 0;
+	border-bottom: 1px solid #282828;
+	box-shadow: 0 0 7px 0 #282828 inset;
+}
+
+.last-paste a:hover{
+	text-decoration: underline;
+}
+
+footer {
+    margin: 20px 0;
+    text-align: center;
+}
