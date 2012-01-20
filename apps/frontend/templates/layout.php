@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
+    <script type="text/javascript">SyntaxHighlighter.all();</script> 
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css' />
   </head>
   <body>
     <?php echo $sf_content ?>

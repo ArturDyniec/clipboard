@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    [style.css, styles/shCoreDefault.css]
 
-  javascripts:    []
+  javascripts:    [scripts/shCore.js, scripts/shBrushJScript.js, scripts/shBrushPhp.js, scripts/shBrushCpp.js]
 
   has_layout:     true
   layout:         layout
