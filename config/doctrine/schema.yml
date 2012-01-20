@@ -1,0 +1,21 @@
+options:
+  collate: utf8_polish_ci
+  charset: utf8
+  type: InnoDB
+
+
+Tekst:
+  options:
+    collate: utf8_polish_ci
+    charset: utf8
+    type: InnoDB
+  actAs:
+    Timestampable:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    contents:
+      type: string(4096)
