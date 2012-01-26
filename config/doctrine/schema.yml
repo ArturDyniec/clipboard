@@ -19,3 +19,8 @@ Tekst:
       autoincrement: true
     contents:
       type: string(4096)
+    nazwa:
+      type: string(128)
+    autor: string(256)
+    skrot: string(128)
+  
