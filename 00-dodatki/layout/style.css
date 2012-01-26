@@ -55,6 +55,10 @@ header h2 {
     
 }
 
+header a{
+    color: #282828;
+}
+
 nav {
 	float: right;
 }
