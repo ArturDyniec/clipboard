@@ -4,7 +4,7 @@
         <?php include_http_metas() ?>
         <?php include_metas() ?>
         <?php include_title() ?>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/images/favicon.png" />
         <?php include_stylesheets() ?>
         <?php include_javascripts() ?>
         <script type="text/javascript">SyntaxHighlighter.all();</script> 
@@ -20,6 +20,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Regulamin</a></li>
+                    <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>     
