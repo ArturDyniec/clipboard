@@ -7,11 +7,20 @@
  * 
  * @property integer $id
  * @property string $contents
+ * @property string $nazwa
+ * @property string $autor
+ * @property string $skrot
  * 
  * @method integer getId()       Returns the current record's "id" value
  * @method string  getContents() Returns the current record's "contents" value
+ * @method string  getNazwa()    Returns the current record's "nazwa" value
+ * @method string  getAutor()    Returns the current record's "autor" value
+ * @method string  getSkrot()    Returns the current record's "skrot" value
  * @method Tekst   setId()       Sets the current record's "id" value
  * @method Tekst   setContents() Sets the current record's "contents" value
+ * @method Tekst   setNazwa()    Sets the current record's "nazwa" value
+ * @method Tekst   setAutor()    Sets the current record's "autor" value
+ * @method Tekst   setSkrot()    Sets the current record's "skrot" value
  * 
  * @package    clipboard
  * @subpackage model
@@ -31,6 +40,18 @@ abstract class BaseTekst extends sfDoctrineRecord
         $this->hasColumn('contents', 'string', 4096, array(
              'type' => 'string',
              'length' => 4096,
+             ));
+        $this->hasColumn('nazwa', 'string', 128, array(
+             'type' => 'string',
+             'length' => 128,
+             ));
+        $this->hasColumn('autor', 'string', 256, array(
+             'type' => 'string',
+             'length' => 256,
+             ));
+        $this->hasColumn('skrot', 'string', 128, array(
+             'type' => 'string',
+             'length' => 128,
              ));
 
         $this->option('collate', 'utf8_polish_ci');
