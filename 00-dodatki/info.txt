@@ -1,0 +1,3 @@
+http://clipboard.localhost/backend.php
+Login: admin
+Pass: supertajnehaslo
