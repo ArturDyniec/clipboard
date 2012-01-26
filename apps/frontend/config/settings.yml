@@ -34,5 +34,5 @@ all:
     # Enable the database manager
     use_database:           true
   .actions:
-    error_404_module: error
-    error_404_action: blad404
+    error_404_module: Main
+    error_404_action: blad
