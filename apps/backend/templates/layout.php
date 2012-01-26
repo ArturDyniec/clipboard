@@ -9,6 +9,15 @@
     <?php include_javascripts() ?>
   </head>
   <body>
+      <div>
+          <ul>
+            <li><a href="<?php echo public_path('') ?>">Strona główna</a></li>          
+            <?php if ($sf_user->isAuthenticated()): ?>    
+                <li><a href="<?php echo url_for('tekst') ?>">Tekst</a></li>          
+                <li><a href="<?php echo url_for('sfGuardAuth/signout') ?>">Wyloguj</a></li>      
+            <?php endif; ?>                
+        </ul>
+      </div>
     <?php echo $sf_content ?>
   </body>
 </html>
