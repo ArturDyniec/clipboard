@@ -27,6 +27,10 @@ class MainActions extends sfActions
   {
 
   }
+  public function executeOserwisie(sfWebRequest $request)
+  {
+
+  }
   
 }
 
