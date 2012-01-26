@@ -51,8 +51,15 @@ header h2 {
     letter-spacing: 5px;
     margin-bottom: 25px;
     margin-left: 3px;
-    text-shadow: 2px 1px 3px
-    
+    text-shadow: 2px 1px 3px;   
+}
+
+header a{
+    color: #282828;
+}
+
+header a:hover{
+    text-shadow: 2px 2px 6px #494731;
 }
 
 nav {
