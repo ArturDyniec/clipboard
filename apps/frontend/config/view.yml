@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [style.css, styles/shCoreDefault.css]
 
-  javascripts:    [scripts/shCore.js, scripts/shBrushJScript.js, scripts/shBrushPhp.js, scripts/shBrushCpp.js]
+  javascripts:    [scripts/shCore.js, scripts/shBrushJScript.js, scripts/shBrushPhp.js, scripts/shBrushCpp.js, scripts/shAutoloader.js, scripts/shBrushAppleScript.js, scripts/shBrushAS3.js, scripts/shBrushBash.js, scripts/shBrushColdFusion.js, scripts/shBrushCSharp.js, scripts/shBrushCss.js, scripts/shBrushDelphi.js, scripts/shBrushDiff.js, scripts/shBrushErlang.js, scripts/shBrushGroovy.js, scripts/shBrushJava.js, scripts/shBrushJavaFX.js, scripts/shBrushPerl.js, scripts/shBrushPlain.js, scripts/shBrushPowerShell.js, scripts/shBrushPython.js, scripts/shBrushRuby.js, scripts/shBrushSass.js, scripts/shBrushScala.js, scripts/shBrushSql.js, scripts/shBrushVb.js, scripts/shBrushXml.js, scripts/shLegacy.js]
 
   has_layout:     true
   layout:         layout
