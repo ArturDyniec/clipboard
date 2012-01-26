@@ -12,5 +12,8 @@
  */
 class Tekst extends BaseTekst
 {
+    public function __toString() {
+        return sprintf($this->contents());
+    }
 
 }
