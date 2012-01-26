@@ -12,5 +12,9 @@
  */
 class Tekst extends BaseTekst
 {
-
+    public static function doSelect(Criteria $criteria){
+        $criteria = clone $criteria;
+        $criteria->addAscendingOrderByColumn(self::NAME);
+        return parent::doSelect($criteria);
+    }
 }
