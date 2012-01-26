@@ -6,6 +6,8 @@ http://clipboard.localhost
 
 
 
+
+
 KROK 1.
 
 Konfiguracja, którą należy wkleić do C:\Windows\System32\drivers\etc\hosts

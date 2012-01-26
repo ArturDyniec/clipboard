@@ -157,3 +157,11 @@ footer {
     margin: 20px 0;
     text-align: center;
 }
+
+footer a{
+    color: #282828;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
