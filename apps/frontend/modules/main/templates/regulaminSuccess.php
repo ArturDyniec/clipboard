@@ -1,3 +1,4 @@
+<div class="regulamin">
 <h3>I. Lorem Ipsum</h3><br/>
         <center>§1</center><br/>
         <p>
@@ -134,10 +135,4 @@
             Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
 
-<?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
+</div>
