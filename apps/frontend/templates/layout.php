@@ -20,6 +20,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Regulamin</a></li>
+                    <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>     
