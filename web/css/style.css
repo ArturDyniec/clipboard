@@ -154,7 +154,9 @@ nav a:hover {
 }
 
 footer {
-    margin: 20px 0;
+    border-top: 1px solid #282828;
+    margin: 50px 0 20px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -167,4 +169,8 @@ footer a:hover{
 }
 .stat{
     
+}
+
+.regulamin p{
+    text-align: justify;
 }
