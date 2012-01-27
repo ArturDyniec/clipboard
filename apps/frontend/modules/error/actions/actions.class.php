@@ -17,6 +17,7 @@ class errorActions extends sfActions
   */
   
    public function executeBlad404(sfWebRequest $request)
-  {   
+  {
+    
   }
 }

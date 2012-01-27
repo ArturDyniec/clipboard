@@ -22,7 +22,6 @@
                     <li><a href="<?php echo url_for('main/regulamin')?>">Regulamin</a></li>
                     <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="<?php echo url_for('main/show')?>">Kontakt</a></li>
-                    <li><a href="<?php echo url_for('main/oserwisie')?>">O serwisie</a></li>
                 </ul>
             </nav>     
             <div class="content">
