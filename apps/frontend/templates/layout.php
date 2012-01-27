@@ -29,9 +29,10 @@
                 <?php echo $sf_content ?>
             </div>
             <br class="clearing" />
-            <footer>
+            <div class="push"> </div>
+        </div>  
+                    <footer>
                 <p>&copy; Copyright by KUL ZendFramework Programmers</p>
             </footer>
-        </div>          
     </body>
 </html>

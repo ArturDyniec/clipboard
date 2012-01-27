@@ -4,6 +4,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    height: 100%;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
@@ -31,10 +32,22 @@ body {
     background: none repeat scroll 0 0 #D0D0D0;
     color: #282828;
     font-family: 'Special Elite',cursive;
+    
+    background-image: linear-gradient(right , #D1D1D1 57%, #0D0D0D 100%);
+    background-image: -o-linear-gradient(right , #D1D1D1 57%, #0D0D0D 100%);
+    background-image: -moz-linear-gradient(right , #D1D1D1 57%, #0D0D0D 100%);
+    background-image: -webkit-linear-gradient(right , #D1D1D1 57%, #0D0D0D 100%);
+    background-image: -ms-linear-gradient(right , #D1D1D1 57%, #0D0D0D 100%);
+    background-image: -webkit-gradient(linear,right top,left top,color-stop(0.57, #D1D1D1),color-stop(1, #0D0D0D));
+    
 }
 .pojemnik {
     margin: 0 auto;
     width: 900px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+margin: 0 auto -70px;
 }
 .clearing {
     clear: both;
@@ -72,7 +85,9 @@ nav ul li {
 nav a {
     color: #494731;
     font-size: 18px;
-    padding: 7px 10px;    
+    padding: 7px 10px;
+    text-shadow: 2px 2px 7px #111;
+    
 }
 nav a:hover {
     background: #494731;
@@ -112,6 +127,7 @@ nav a:hover {
 	float: left;	
 	height: 150px;
     width: 890px;
+    box-shadow: 0px  0 15px 0px #888 inset;
 }
 
 #send{
@@ -152,12 +168,18 @@ nav a:hover {
 .last-paste a:hover{
 	text-decoration: underline;
 }
-
+.push{
+    height: 100px;
+    claer:both;
+}
 footer {
     border-top: 1px solid #282828;
     margin: 50px 0 20px;
     padding-top: 20px;
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    height: 100px;
 }
 
 footer a{
