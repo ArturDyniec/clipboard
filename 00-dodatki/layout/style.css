@@ -31,6 +31,13 @@ body {
     background: none repeat scroll 0 0 #D0D0D0;
     color: #282828;
     font-family: 'Special Elite',cursive;
+    background-image: linear-gradient(right , #FFFFFF 73%, transparent 100%);
+    background-image: -o-linear-gradient(right , #FFFFFF 73%, transparent 100%);
+    background-image: -moz-linear-gradient(right , #FFFFFF 73%, transparent 100%);
+    background-image: -webkit-linear-gradient(right , #FFFFFF 73%, transparent 100%);
+    background-image: -ms-linear-gradient(right , #FFFFFF 73%, transparent 100%);
+
+
 }
 .pojemnik {
     margin: 0 auto;
